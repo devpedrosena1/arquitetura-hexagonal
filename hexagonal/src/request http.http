@@ -1,0 +1,16 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+###
+POST http://localhost:8080/products
+{
+    "name": "Teclado Mecânico RGB",
+    "price": 299.90
+}
+
+###
+GET http://localhost:8080/products
+
+###
+GET http://localhost:8080/products/{id}
